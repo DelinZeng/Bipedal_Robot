@@ -1,0 +1,3 @@
+lewansoul_lx16a
+pyserial
+PyQt5

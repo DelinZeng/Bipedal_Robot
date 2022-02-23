@@ -1,0 +1,15 @@
+MANIFEST.in
+lewansoul_lx16a_terminal.py
+setup.py
+lewansoul_lx16a_terminal.egg-info/PKG-INFO
+lewansoul_lx16a_terminal.egg-info/SOURCES.txt
+lewansoul_lx16a_terminal.egg-info/dependency_links.txt
+lewansoul_lx16a_terminal.egg-info/requires.txt
+lewansoul_lx16a_terminal.egg-info/top_level.txt
+resources/ConfigureId.ui
+resources/ConfigureMaxTemperature.ui
+resources/ConfigurePositionLimits.ui
+resources/ConfigurePositionOffset.ui
+resources/ConfigureVoltageLimits.ui
+resources/ServoTerminal.ui
+scripts/lewansoul_lx16a_terminal
