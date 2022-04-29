@@ -1141,11 +1141,11 @@ def move_baby_step_forward(q_end):
 
 
 
-    X_L = X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + [X_forward[0]]
-    Y_L = Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + [Y_forward[0]]
+    X_L = X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + [X_forward[0]]
+    Y_L = Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + [Y_forward[0]]
 
-    X_R = X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + [X_backward[0]]
-    Y_R = Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + [Y_backward[0]]
+    X_R = X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + X_backward + X_forward + [X_backward[0]]
+    Y_R = Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + Y_backward + Y_forward + [Y_backward[0]]
 
 
 
